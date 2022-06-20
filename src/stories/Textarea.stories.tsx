@@ -8,7 +8,7 @@ export default {
   subcomponent: { Field, label: Field.Label },
 } as Meta;
 
- const Template: Story = (args) => {
+const Template: Story = (args) => {
   return (
     <Field>
       <Field.Label>TextArea</Field.Label>
