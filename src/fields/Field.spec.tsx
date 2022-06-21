@@ -3,7 +3,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { Field } from './Field';
-jest.mock('../utils/useUniqueID');
+jest.mock('../utils/useUniqueId');
 describe('Input', () => {
   it('applies unique ID to id attribute', () => {
     render(
